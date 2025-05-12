@@ -44,12 +44,13 @@
             <input id="password" type="password" placeholder="Password" name="password">
         </p>
          <p>
-        <label for="color">Pick a color</label>
-       <input id="color" type="color" value="#c2fffb"name="color" ></p>
+            <label for="color">Pick a color</label>
+            <input id="color" type="color" value="#c2fffb"name="color" >
+        </p>
        
         <p>
             <label for="number">Enter a number</label>
-            <input id="number" placeholder="Enter a number" name="number"></p>
+            <input type="number" id="number" placeholder="Enter a number" name="number" min="1" max="1000"></p>
 
         <button type="submit">Submit</button>
     </form>
@@ -77,32 +78,50 @@
     <form action="/birds">
         <input class="check" type="checkbox" name="agree" id="agree">
         <label for="agree">I agree!</label>
-        <button>Submit</button>
+
+     <h3>Radio</h3>
+
+        <p>
+            <label for="s">S</label>
+            <input class="radio" type="radio" name="size" id="s" value="small">
+            <label for="m">M</label>
+            <input class="radio" type="radio" name="size" id="m" value="medium">
+            <label for="l">L</label>
+            <input class="radio" type="radio" name="size" id="l" value="large">
+        </p>
+
+        <p>
+            <label for="menu">Please select a dish</label>
+            <select name="menu" id="menu">
+                <option value="fish">Fish</option>
+                <option value="burger">Burger</option>
+                <option value="pizza">Pizza</option>
+                <option value="donut">Donut</option>
+                <option value="smoothie">Smoothie</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese</label>
+            <input class="radio" type="range" id="cheese" min="0" max="10" value="5" name="cheese-level">
+        </p>
+
+        <p>
+            <label for="requests">Special Requests</label>
+            <br>
+            <textarea name="requests" id="requests" rows="4" cols="30" placeholder="Type something here"></textarea>
+        </p>
+       <button>Submit</button>
     </form>
+    <h2>Validations Demo</h2>
+    <form action="/dummy">
+        <label for="first">First Name</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="username">Username</label>
+             <input type="text" name="user" id="user" minlength="5" maxlength="20" required>
+        </p>
+        <button type="submit">Submit</button>
 
-    <h3>Radio</h3>
-    <form action="/birds">
-        <label for="s">S</label>
-        <input class="radio" type="radio" name="size" id="s" value="small">
-
-        <label for="m">M</label>
-        <input class="radio" type="radio" name="size" id="m" value="medium">
-
-        <label for="l">L</label>
-        <input class="radio" type="radio" name="size" id="l" value="large">
-
-        <button>Submit</button>
     </form>
-    <form action="/birds">
-        <label for="menu">Please select a dish</label>
-        <select name="menu" id="menu">
-            <option value="fish">Fish</option>
-            <option value="burger">Burger</option>
-            <option value="pizza">Pizza</option>
-            <option value="donut">Donut</option>
-            <option value="smoothie">Smoothie</option>
-        </select>
-        <button>Submit</button>
-       </form>
 </body>
 </html>
