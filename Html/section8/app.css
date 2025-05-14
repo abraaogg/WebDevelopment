@@ -1,0 +1,37 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #faedcd;
+}
+
+h1{
+    background-color: #ccd5ae;
+    width: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+#one{
+    background-color:#fefae0 ;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#two{
+    background-color:#e9edc9 ;
+    border-color: #e9c46a;
+    border-width: 3px;
+    border-style: dotted;
+    border-left-width: 5px;
+    padding-right: 50px;
+
+}
+
+#three{
+    background-color:#ccd5ae ;
+    border: 4px solid cornflowerblue;
+    border-left-style: dashed;
+    box-sizing: border-box;
+}
