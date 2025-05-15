@@ -1,0 +1,14 @@
+nav{
+    width: 30%;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 1.3em;
+    margin-left: 1.6%;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: "Lora", serif;
+}
+
+img{
+    width: 30%;
+    margin: 1.6%;
+}
