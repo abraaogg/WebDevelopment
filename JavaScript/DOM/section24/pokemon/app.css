@@ -22,5 +22,6 @@ body{
     box-shadow: 2px 2px 2px rgb(33, 59, 30);
     cursor: pointer;
     transition: 0.3s;
+    transform: scale(1.1);
     
 }
