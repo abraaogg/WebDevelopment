@@ -1,7 +1,26 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: rgb(1, 1, 41);
+    color: white;
+}
+
 .pokemon {
     display: inline-block;
     text-align: center;
 }
 .pokemon img {
+    padding: 10px;
+    margin: 10px;
     display: block;
+    background-color: rgb(52, 90, 48);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(83, 148, 76, 0.822);
+}
+.pokemon img:hover{
+    background-color: rgb(2, 43, 9);
+    box-shadow: 2px 2px 2px rgb(33, 59, 30);
+    cursor: pointer;
+    transition: 0.3s;
+    
 }
