@@ -4,15 +4,23 @@ import './App.css'
 import Chicken from './Chicken';
 import Greeter  from './Greeter';
 import Die from './die';
-import ListPicker from './ListPicker';3
+import ListPicker from './ListPicker';
 import DoubleDice from './DoubleDice';
+import Heading from './Heading';
+import ColorList from './ColorList';
 
 function App(){
   return (
-  <div>
-    <DoubleDice/>
-    <DoubleDice/>
-    <DoubleDice/>
+  <div className='card'>
+      <div className='appy'>
+      <Heading text='Welcome' fontSize='40px'/>
+      <DoubleDice/>
+      <DoubleDice/>
+      <DoubleDice/>
+
+      <ColorList colors = {['red', 'pink', 'purple', 'teal']}/>
+    </div>
+   
 
     {/* <ListPicker values={[1,2,3]}/> */}
 
