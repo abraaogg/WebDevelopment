@@ -11,6 +11,7 @@ import './App.css'
 // import ShoppingList from './ShoppingList';
 // import Property from './Property';
 import PropertyList from './PropertyList';
+import Clicker from './Clicker';
 
 const properties = [
   { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
@@ -33,8 +34,12 @@ const properties = [
 function App(){
   return (
     <div>
-      <PropertyList properties={properties}/>
-      </div>
+      <Clicker message='HI!!!' buttonText='Click Me'/>
+      <Clicker message='Please Stop Clicking!!!' buttonText='Do not click'/>
+    </div>
+    // <div>
+    //   <PropertyList properties={properties}/>
+    //   </div>
     // <div>
     //   <ShoppingList item={data}/>
     // </div>
