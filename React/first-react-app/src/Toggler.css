@@ -1,0 +1,23 @@
+body {
+    background-color: darkgray;
+}
+.Toggler{
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+.Count {
+    background-color: rgba(143, 188, 143, 0.664);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.countButton{
+    width: 50px;
+    height: 30px;
+    display: flex;
+    padding: 10px;
+}
+.resetButton {
+    font-size: 10px;
+}
