@@ -1,12 +1,12 @@
 import { useState } from "react";
-import "./ColorSquares.css";
+import "./ColorBox.css";
 
 function randomChoice(arr) {
   const idx = Math.floor(Math.random() * arr.length);
   return arr[idx];
 }
 
-function ColorSquares({ colors }) {
+function ColorBox({ colors }) {
   const [color, setColor] = useState(randomChoice(colors));
   const changeColor = () => {
     const randomColor = randomChoice(colors);
@@ -14,11 +14,11 @@ function ColorSquares({ colors }) {
   };
   return (
     <div
-      className="ColorSquares"
+      className="ColorBox"
       onClick={changeColor}
       style={{ backgroundColor: color }}
     ></div>
   );
 }
 
-export default ColorSquares;
+export default ColorBox;

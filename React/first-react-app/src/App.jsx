@@ -10,12 +10,12 @@ import './App.css'
 // import ColorList from './ColorList';
 // import ShoppingList from './ShoppingList';
 // import Property from './Property';
-import PropertyList from './PropertyList';
-import Clicker from './Clicker';
-import Counter from './Counter';
-import Toggler from './Toggler';
-import ToggleCounter from './ToggleCounter';
-import ColorSquares from './ColorSquares'
+// import PropertyList from './PropertyList';
+// import Clicker from './Clicker';
+// import Counter from './Counter';
+// import Toggler from './Toggler';
+// import ToggleCounter from './ToggleCounter';
+import ColorBoxGrid from './ColorBoxGrid';
 
 // const properties = [
 //   { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
@@ -52,11 +52,13 @@ const colors = [
 //   {id: 4,item: 'sugar', quantity: 2, completed: true},
 // ];
 
-function App(){
+function App() {
   return (
     <div>
-      <ColorSquaresGrid colors={colors} />
+      <ColorBoxGrid colors={colors} />
     </div>
+  );
+}
     // <div>
     //   <Toggler/>
     //   <ToggleCounter/>
@@ -96,8 +98,6 @@ function App(){
   //   <Die numSides = {6}/>
   //   <Die numSides = {10}/>
   // </div>
-  );
-}
 
 
 export default App
