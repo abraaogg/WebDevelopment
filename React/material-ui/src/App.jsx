@@ -4,15 +4,18 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Button from '@mui/material/Button';
 import RatingDemo from './RatingDemo';
+import FormDemo from './FormDemo';
 
 function App() {
 
   return (
     <>
-      <RatingDemo/>
+      <FormDemo/>
+
+      {/* <RatingDemo/>
       <Button variant="text">Text</Button>
       <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
+      <Button variant="outlined">Outlined</Button> */}
     </>
   )
 }
